@@ -111,7 +111,7 @@ else
 fi
 }
 
-
+clear
 echo -e "${Font_SkyBlue} 流媒体测试脚本 ${Font_Suffix}"
 echo -e "${Font_SkyBlue} GitHub：https://github.com/missuo/SimpleNetflix ${Font_Suffix}"
 echo "-------------------------------------"
