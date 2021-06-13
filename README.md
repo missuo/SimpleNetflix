@@ -6,5 +6,5 @@ Netflix检测精简版
 
 ## 使用
 ```shell
-bash <(curl -sSL "https://raw.githubusercontent.com/missuo/SimpleNF/main/nf.sh")
+bash <(curl -sSL "https://cdn.jsdelivr.net/gh/missuo/SimpleNetflix/nf.sh")
 ```
