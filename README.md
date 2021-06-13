@@ -1,4 +1,4 @@
-# SimpleNF
+# SimpleNetflix
 Netflix检测精简版
 
 ## 声明
