@@ -9,7 +9,7 @@ Font_SkyBlue="\033[36m"
 Font_White="\033[37m"
 Font_Suffix="\033[0m"
 
-function test_ipv4() {
+test_ipv4() {
 echo -e "Netflix："
     result=`curl --connect-timeout 10 -4sSL "https://www.netflix.com/" 2>&1`
     if [ "$result" == "Not Available" ];then
@@ -50,7 +50,7 @@ echo -e "Netflix："
     return
 }
 
-function test_ipv6() {
+test_ipv6() {
 echo -e "Netflix："
     result=`curl --connect-timeout 10 -6sSL "https://www.netflix.com/" 2>&1`
     if [ "$result" == "Not Available" ];then
@@ -113,8 +113,7 @@ fi
 
 
 echo -e "${Font_SkyBlue} 流媒体测试脚本 ${Font_Suffix}"
-echo -e "${Font_SkyBlue} GitHub：https://github.com/missuo/SimpleNF ${Font_Suffix}"
-echo -e "${Font_SkyBlue} bash <(curl -sSL "https://raw.githubusercontent.com/missuo/SimpleNF/main/nf.sh") ${Font_Suffix}"
+echo -e "${Font_SkyBlue} GitHub：https://github.com/missuo/SimpleNetflix ${Font_Suffix}"
 echo "-------------------------------------"
 echo " ** 正在测试 IPv4 解锁情况";
 check4=`ping 1.1.1.1 -c 1 2>&1`;
